@@ -79,7 +79,7 @@ class LoginScreen extends StatelessWidget {
           ),
           child: Container(
             child: Scaffold(
-              // resizeToAvoidBottomInset: true,
+              resizeToAvoidBottomInset: true,
               backgroundColor: Colors.transparent,
               body: Center(
                 child: SafeArea(
@@ -91,6 +91,10 @@ class LoginScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           TextFormField(
+                            cursorHeight: 20,
+                            keyboardType: TextInputType.emailAddress,
+                            cursorColor: Theme.of(context).colorScheme.onPrimary,
+                            textCapitalization: TextCapitalization.none,
                             controller: _usernameController,
                             decoration: InputDecoration(
                               hintText: 'Username',
@@ -98,6 +102,9 @@ class LoginScreen extends StatelessWidget {
                           ),
                           SizedBox(height: 10),
                           TextFormField(
+                            cursorHeight: 20,
+                            cursorColor: Theme.of(context).colorScheme.onPrimary,
+                            textCapitalization: TextCapitalization.none,                            
                             controller: _passwordController,
                             decoration: InputDecoration(
                               hintText: 'Password',

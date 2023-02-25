@@ -25,7 +25,7 @@ class MarkerResultsTable extends StatelessWidget
               TableRow(children: [
                   Text("MARKER", style: TextStyle(fontSize: 20.0), textAlign: TextAlign.left),
                   Text("RESULT", style: TextStyle(fontSize: 20.0), textAlign: TextAlign.left),
-                  Text("DATETIME", style: TextStyle(fontSize: 20.0), textAlign: TextAlign.left),
+                  Text("DATE", style: TextStyle(fontSize: 20.0), textAlign: TextAlign.left),
               ]),
               TableRow(children: [
                   Text(""),

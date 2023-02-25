@@ -83,7 +83,7 @@ class DecisionTreeTable extends StatelessWidget
                 TableRow(children: [
                     Text("NAME", style: TextStyle(fontSize: 20.0), textAlign: TextAlign.center),
                     Text("RESULT", style: TextStyle(fontSize: 20.0), textAlign: TextAlign.center),
-                    Text("DATETIME", style: TextStyle(fontSize: 20.0), textAlign: TextAlign.center),
+                    Text("DATE", style: TextStyle(fontSize: 20.0), textAlign: TextAlign.center),
                     
                 ]),
                 TableRow(children: [
